@@ -38,4 +38,4 @@ python3 tests/smoke_test.py
 La aplicación es demostrativa: no envía datos a un servidor ni realiza despliegues reales.
 
 #Copyright
-Desarrollado por Iván López Benítez.
+Desarrollado por Iván López
