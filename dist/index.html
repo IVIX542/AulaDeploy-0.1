@@ -1,29 +1,23 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="AulaDeploy: panel de proyectos y despliegues web de DAW."
-    />
-    <meta name="theme-color" content="#7f1726" />
-    <title>AulaDeploy · Panel de despliegues DAW</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <script src="js/app.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
-    <div class="app-shell">
-      <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
-        <div class="brand">
-          <span class="brand-mark" aria-hidden="true"><span>AD</span></span>
-          <span
-            ><strong>AulaDeploy</strong
-            ><small>Valle del Miro · DAW</small></span
-          >
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AulaDeploy: panel de proyectos y despliegues web de DAW.">
+  <meta name="theme-color" content="#7f1726">
+  <title>AulaDeploy · Panel de despliegues DAW</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navegación principal">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"><span>AD</span></span>
+        <span><strong>AulaDeploy</strong><small>Valle del Miro · DAW</small></span>
+      </div>
 
         <nav class="nav-list">
           <a href="#inicio" class="nav-link active" data-route="inicio">
@@ -357,34 +351,13 @@
       </div>
     </div>
 
-    <div
-      class="modal"
-      id="projectModal"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="modalTitle"
-      hidden
-    >
-      <div class="modal-backdrop" data-close-modal></div>
-      <article class="modal-card">
-        <button
-          class="modal-close"
-          type="button"
-          data-close-modal
-          aria-label="Cerrar detalle"
-        >
-          ×
-        </button>
-        <div id="modalContent"></div>
-      </article>
-    </div>
-    <div class="toast" id="toast" role="status" aria-live="polite" hidden>
-      <span>✓</span>
-      <div>
-        <strong>Solicitud registrada</strong
-        ><small>El despliegue se ha añadido al historial.</small>
-      </div>
-    </div>
-    <h1>Portal de despliegue</h1>
-  </body>
+  <div class="modal" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <article class="modal-card">
+      <button class="modal-close" type="button" data-close-modal aria-label="Cerrar detalle">×</button>
+      <div id="modalContent"></div>
+    </article>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden><span>✓</span><div><strong>Solicitud registrada</strong><small>El despliegue se ha añadido al historial.</small></div></div>
+</body>
 </html>
